@@ -1,0 +1,178 @@
+body {
+  background-color: #f5f6f7;
+  font-family: "Encode Sans";
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  /* background-color: blue; */
+}
+.top img {
+  max-width: 171px;
+}
+.container {
+  /*guarda todas as caixas com exceção do top*/
+  width: 1250px;
+  margin: auto;
+  justify-content: center;
+  /* background-color: green; */
+}
+.caixa-seções {
+  /*caixa com todas as seções*/
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-width: 100%;
+  border-color: #e5e5e5;
+}
+.seções {
+  font-size: 19px;
+  font-weight: bold;
+}
+.caixas {
+  /*caixa que guarda apenas as caixas esquerda e direita sem seções e sem o topo*/
+  display: flex;
+}
+.caixa-esquerda {
+  width: 50%;
+  /* background-color: violet; */
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.caixa-direita {
+  width: 50%;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: space-evenly;
+}
+.matéria-principal {
+  font-weight: bold;
+  font-size: 52px;
+  margin-top: 39px;
+  margin-bottom: 35px;
+  color: #c4160c;
+}
+.matéria-secundária {
+  font-size: 18px;
+  color: #303134;
+}
+.caixa-imagens-esquerda img {
+  max-width: 193px;
+  height: 110px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  /* background-color: darkmagenta; */
+}
+.linha1 {
+  /* primeira linha de matérias abaixo das matérias principais e secundária */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.borda1 {
+  border-color: #ebedef;
+  max-width: 624px;
+  border-width: 1px 624px;
+  border-style: solid;
+}
+.borda2 {
+  border-color: #ebedef;
+  border-width: 1px;
+  border-style: solid;
+}
+.linha2 {
+  /*segunda linha da caixa esquerda, não contém img*/
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.caixa-imagens-direita img {
+  max-width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+
+  /* background-color: brown; */
+}
+.coluna1 {
+  width: auto;
+  padding: 35px;
+  /* background-color: rebeccapurple; */
+}
+.coluna2 {
+  width: auto;
+  padding: 35px;
+  padding-right: 0px;
+}
+.titulo-imagem {
+  max-width: 193px;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+.legenda-imagem {
+  max-width: 193px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #2f3134;
+}
+.segunda-legenda {
+  max-width: 193px;
+  font-size: 14px;
+  margin-bottom: 36px;
+  color: #2f3134;
+}
+.titulo-imagem-2 {
+  max-width: 240px;
+  font-size: 14px;
+  margin-bottom: 11px;
+}
+.legenda-imagem-2 {
+  max-width: 240px;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 11px;
+  color: #2f3134;
+}
+.segunda-legenda-2 {
+  max-width: 240px;
+  font-size: 14px;
+  margin-bottom: 52px;
+  color: #2f3134;
+}
+.g1 {
+  color: #c3170c;
+}
+.o-globo {
+  color: #1e4b9b;
+}
+.valor {
+  color: #006766;
+}
+.ge {
+  color: #07aa47;
+}
+.cartola {
+  color: #e3662b;
+}
+.globoplay {
+  color: #fb0735;
+}
+.dropz {
+  color: #ff75bb;
+}
+.gshow {
+  color: #ec7d00;
+}
+.quem {
+  color: #323333;
+}
+.receitas {
+  color: #a81d83;
+}
